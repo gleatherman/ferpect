@@ -1,0 +1,36 @@
+/*
+* Custom Leto V1.0 
+* Copyright 20w0, Gary Leatherman
+* www.macmonkey.tv
+*/
+
+
+/* #Typography
+================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#filter li a {
+    font-family: 'Work Sans', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.cd-primary-nav-trigger {
+    display: none;
+}
