@@ -34,3 +34,7 @@ body {
 .cd-primary-nav-trigger {
     display: none;
 }
+
+a.tipped {
+    font-family: 'Work Sans', sans-serif !important;
+}
