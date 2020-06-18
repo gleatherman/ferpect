@@ -31,10 +31,51 @@ body {
     line-height: 28px;
 }
 
+a.tipped {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+
+/* #MISC
+================================================== */
+
 .cd-primary-nav-trigger {
     display: none;
 }
 
-a.tipped {
-    font-family: 'Work Sans', sans-serif !important;
+.padding-bottom {
+    padding-bottom: 0;
+}
+
+.padding-top-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-social li a.linkedin:hover {
+    color: #2867b2;
+}
+
+.footer-social li a.youtube:hover {
+    color: #FF0000;
+}
+
+.footer-social li a.twitter:hover {
+    color: #00b6f1;
+}
+
+.footer-social li a.facebook:hover {
+    color: #3b5998;
+}
+
+.footer-social li a.google:hover {
+    color: #df4a32;
+}
+
+.footer-social li a.vimeo:hover {
+    color: #1ab7ea;
+}
+
+.footer-social li a.envato:hover {
+    color: #81B441;
 }
