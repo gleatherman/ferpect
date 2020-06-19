@@ -44,7 +44,7 @@ a.tipped {
 }
 
 .padding-bottom {
-    padding-bottom: 0;
+    padding-bottom: 50px;
 }
 
 .padding-top-bottom {
@@ -78,4 +78,18 @@ a.tipped {
 
 .footer-social li a.envato:hover {
     color: #81B441;
+}
+
+.colord-text-top {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 4vh;
+}
+
+
+/* LUCY PROJECT PAGE */
+
+.image-parallax>img {
+    width: 120%;
 }
