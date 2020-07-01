@@ -42,6 +42,13 @@
                 max-width: 300px;
             }
         }
+        
+        @media only screen and (max-width: 1025px) {
+            .swiper-button-next,
+            .swiper-button-prev {
+                display: none;
+            }
+        }
     </style>
 
 
@@ -296,12 +303,7 @@
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
+            }
         })
     </script>
     <!-- End Document
