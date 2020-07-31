@@ -249,6 +249,10 @@ a.tipped {
     align-items: center;
 }
 
+.video-section {
+    max-width: 1920px;
+}
+
 
 /* .swiper-wrapper {
     align-items: stretch
