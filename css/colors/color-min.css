@@ -82,6 +82,10 @@ figure.youtube-sq:hover a:after {
     border: 2px solid #6dc234;
 }
 
+::-moz-selection {
+    background-color: #6dc234;
+}
+
 ::selection {
     background-color: #6dc234;
 }
