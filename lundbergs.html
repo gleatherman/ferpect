@@ -39,7 +39,10 @@
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
-
+ <style>.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}</style>
 
 </head>
 
@@ -129,7 +132,7 @@
     <!-- Primary Page Layout
 	================================================== -->
 
-    <div class="section padding-title-top padding-title-bottom background-white">
+    <div class="section padding-title-top padding-title-bottom background-white ">
         <div class="container">
             <div class="twelve columns">
                 <div class="page-title parallax-fade-top">
@@ -167,8 +170,8 @@
     </div> -->
 
 
-    <div class="section full-height background-white over-none">
-        <div class="parallax" style="background-image: url('images/portfolio/campaign/lundberg/Green-Fields_05-2.jpg')"></div>
+    <div class="section full-height padding-top-bottom over-none parallax-window" data-parallax="scroll" data-image-src="/images/portfolio/campaign/lundberg/Green-Fields_05-2.jpg/">
+        <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/images/portfolio/campaign/lundberg/Green-Fields_05-2.jpg"></div> -->
         <div class="home-text-wrap">
             <div class="container z-bigger">
                 <div class="twelve columns">
@@ -184,7 +187,7 @@
         </div>
     </div>
 
-    <div class="section full-height background-white over-none">
+    <div class="section full-height padding-top-bottom background-white over-none">
         <div class="home-text-wrap">
             <div class="container z-bigger">
                 <div class="twelve columns">
@@ -200,7 +203,7 @@
             </div>
         </div>
     </div>
-    <div class="section padding-top-bottom background-white">
+    <!-- <div class="section padding-top-bottom background-white"> -->
         <div class="container">
             <div class="six columns">
                 <div class="img-wrap">
@@ -212,15 +215,15 @@
             </div>
         </div>
     </div>
-    <div class="section full-height padding-top-bottom background-white">
-        <div class="parallax" style="background-image: url('images/portfolio/campaign/lundberg/Green-Fields_05-2.jpg')"></div>
+    <div class="section full-height padding-top-bottom background-white parallax-window" data-parallax="scroll" data-image-src="/images/portfolio/campaign/lundberg/Green-Fields_05-2.jpg/">
+        <!-- <div class="parallax-window" style="background-image: url('images/portfolio/campaign/lundberg/Green-Fields_05-2.jpg')"></div> -->
         <div class="home-text-wrap">
             <div class="container z-bigger">
                 <div class="twelve columns">
                     <div class="video-section square">
                         <figure class="youtube-sq">
                             <a href="https://www.youtube.com/embed/fLrmWzOJ7tE">
-                                <img src="images/portfolio/campaign/lundberg/wfh-t" alt="image" />
+                                <img src="images/portfolio/campaign/lundberg/wfh-thumb02.jpg" alt="image" />
                             </a>
                         </figure>
                     </div>
@@ -295,7 +298,7 @@
     <script type="text/javascript" src="js/tipper.js"></script>
     <script type="text/javascript" src="js/scrollReveal.js"></script>
     <script type="text/javascript" src="js/fitvids.js"></script>
-    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/parallax.min.js"></script>
     <script type="text/javascript" src="js/custom-project.js"></script>
     <script src="https://kit.fontawesome.com/a062562745.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/tria-audio-player.js"></script>
